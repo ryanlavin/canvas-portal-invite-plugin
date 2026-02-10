@@ -1,6 +1,6 @@
 {
   "sdk_version": "0.94.0",
-  "plugin_version": "1.0.0",
+  "plugin_version": "1.2.0",
   "name": "portal_invite",
   "description": "Automatically sends patient portal invites when patients are created",
   "components": {
