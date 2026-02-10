@@ -6,7 +6,7 @@
   "components": {
     "protocols": [
       {
-        "class": "protocols.portal_invite:PortalInvite",
+        "class": "portal_invite.protocols.portal_invite:PortalInvite",
         "description": "Sends portal invite automatically when a patient is created"
       }
     ]
