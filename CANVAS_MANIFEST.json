@@ -1,0 +1,18 @@
+{
+  "sdk_version": "0.94.0",
+  "plugin_version": "1.0.0",
+  "name": "portal_invite",
+  "description": "Automatically sends patient portal invites when patients are created",
+  "components": {
+    "protocols": [
+      {
+        "class": "portal_invite.protocols.auto_invite:AutoPortalInvite",
+        "description": "Sends portal invite automatically when a patient is created"
+      }
+    ]
+  },
+  "secrets": [],
+  "tags": {},
+  "license": "MIT",
+  "readme": "./README.md"
+}
