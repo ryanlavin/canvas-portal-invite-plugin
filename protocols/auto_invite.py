@@ -1,13 +1,9 @@
-"""
-Auto Portal Invite Handler - Minimal test version.
-"""
+"""Portal Invite - minimal test version."""
 
 from canvas_sdk.protocols import BaseProtocol
 
 
 class AutoPortalInvite(BaseProtocol):
-    """Sends portal invite when patient is created."""
-
     RESPONDS_TO = ["PATIENT_CREATED"]
 
     def compute(self):
