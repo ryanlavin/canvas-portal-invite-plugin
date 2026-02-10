@@ -3,7 +3,7 @@
 from canvas_sdk.protocols import BaseProtocol
 
 
-class AutoPortalInvite(BaseProtocol):
+class PortalInvite(BaseProtocol):
     RESPONDS_TO = ["PATIENT_CREATED"]
 
     def compute(self):

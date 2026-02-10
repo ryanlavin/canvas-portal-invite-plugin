@@ -1,12 +1,12 @@
 {
   "sdk_version": "0.94.0",
-  "plugin_version": "1.3.0",
+  "plugin_version": "1.4.0",
   "name": "portal_invite",
   "description": "Automatically sends patient portal invites when patients are created",
   "components": {
     "protocols": [
       {
-        "class": "protocols.auto_invite:AutoPortalInvite",
+        "class": "protocols.portal_invite:PortalInvite",
         "description": "Sends portal invite automatically when a patient is created"
       }
     ]
